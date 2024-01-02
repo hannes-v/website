@@ -1,0 +1,33 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    justify-content: center;
+    align-items: center;
+}
+.one{
+
+}
+.two{
+    
+}
+.three{
+    
+}
+.four{
+    
+}
+.animation{
+    transition: .75s;
+}
+
+.animation:hover{
+    transform: scale(2.4) rotate(30deg);
+}
+img:hover{
+    fill: blue;
+}

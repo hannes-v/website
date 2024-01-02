@@ -1,0 +1,55 @@
+
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.sans-serif{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: larger;
+}
+.grid{
+    justify-content: left;
+}
+.start{
+    align-self: start;
+    justify-self: center;
+}
+.end{
+    align-self: end;
+    justify-self: center;
+}
+.center{
+    align-self: center;
+    justify-self: center;
+}
+.s-80{
+    height: 80px;
+}
+.s-30{
+    height: 30px;
+}
+.s-40{
+    height: 40px;
+}
+.s-25{
+    height: 25px;
+}
+.flexy{
+    display: flex;
+}
+.l-196{
+    left: 196px
+}
+.t--26{
+    top: -26px;
+}
+
+
+.pr-20{
+    padding-right: 20px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
